@@ -1,4 +1,9 @@
 
-let sign = prompt('Typer your name?');
-let sign = prompt('Typer your surname');
-let sign = prompt('What s your favourite colour?');
+const userFirstName = prompt('Type your first name' );
+const userLastName = prompt('Type your last name' );
+const userFavColour = prompt('Type your favourite colour' );
+console. log(userFirstName, userLastName, userFavColour);
+8
+9
+10
+document. getElementById('output'). innerHTML = "${userFirstName}${userLastName}${userFavColour}24*;
